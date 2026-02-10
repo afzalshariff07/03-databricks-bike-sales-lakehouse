@@ -1,32 +1,16 @@
-<<<<<<< HEAD
-# 03-databricks-bike-data-lakehouse
-End-to-end Databricks Data Lakehouse using Medallion Architecture (Bronze, Silver, Gold) with Delta Lake, PySpark and automated pipelines.
-=======
 Welcome to the \*\*Databricks Data Lakehouse Project\*\*
-
-
 
 This repository contains a complete, real-world \*\*Data Lakehouse implementation\*\* built on Databricks, including datasets, notebooks, SQL examples, and exercises. Everything here is designed to help you understand how modern data teams use Databricks in practice, from data ingestion and transformation to analytics-ready data products.
 
-
-
 ---
-
-
 
 \## ⚠️ Important Note
 
-
-
-Build this project \*\*on your own first\*\* using the \*\*Notion roadmap\*\*.  
+Build this project \*\*on your own first\*\* using the \*\*Notion roadmap\*\*.
 
 Use this repository \*\*only as a reference\*\* if you get stuck.
 
-
-
 Before starting, \*\*watch the Databricks Bootcamp\*\*, where I explain the architecture and decisions behind this project.
-
-
 
 \- 🧭 Notion Roadmap: \[Open guide](https://candle-gosling-511.notion.site/Project-Building-the-Bike-Data-Lakehouse-2e734b251f1280ab8dadc269e033cc38?source=copy\_link)
 
@@ -34,80 +18,52 @@ Before starting, \*\*watch the Databricks Bootcamp\*\*, where I explain the arch
 
 \- 🎉 Finished? Share it on \[LinkedIn](https://www.linkedin.com/in/baraa-khatib-salkini/). Let’s celebrate
 
-
-
 ---
 
 \## 🏗️ Architecture
 
-
-
 This project follows the \*\*Medallion Architecture\*\*:
-
-
 
 \### 🥉 Bronze Layer
 
-\- Raw data ingestion  
+\- Raw data ingestion
 
-\- Schema inference and storage as Delta tables  
-
-
+\- Schema inference and storage as Delta tables
 
 \### 🥈 Silver Layer
 
-\- Data cleaning and standardization  
+\- Data cleaning and standardization
 
-\- Type casting and validation  
-
-
+\- Type casting and validation
 
 \### 🥇 Gold Layer
 
 \- Dimensional Data Model (Business Transformation)
 
-\- Ready for BI and analysis  
-
-
+\- Ready for BI and analysis
 
 ---
-
-
 
 \## 🛠️ Technologies Used
 
+\- Databricks
 
+\- Apache Spark
 
-\- Databricks  
+\- PySpark
 
-\- Apache Spark  
+\- Spark SQL
 
-\- PySpark  
+\- Delta Lake
 
-\- Spark SQL  
-
-\- Delta Lake  
-
-\- Unity Catalog  
-
-
-
-
+\- Unity Catalog
 
 ---
-
-
 
 \## Prerequisites
 
-\- Basic SQL, Python and some Pyspark knowledge  
+\- Basic SQL, Python and some Pyspark knowledge
 
-\- No prior Databricks experience required  
-
-
+\- No prior Databricks experience required
 
 ---
-
-
-
->>>>>>> b5be68e (Added README.md file)
