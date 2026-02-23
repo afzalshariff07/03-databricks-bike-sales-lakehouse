@@ -81,24 +81,43 @@ This project follows the **Medallion Architecture** pattern.
 ## Project Structure
 
 ```
-script/
+03-DATABRICKS-BIKE-SALES-LAKEHOUSE/
 │
-├── bronze/
-│ ├── bronze_crm_ingestion.ipynb
-│ ├── bronze_erp_ingestion.ipynb
+├── docs/ # Documentation and supporting material
 │
-├── silver/
-│ ├── silver_crm_customers.ipynb
-│ ├── silver_erp_products.ipynb
-│ ├── silver_orchestration.ipynb
+├── datasets/ # Raw source datasets
+│ ├── source_crm/
+│ │ ├── cust_info.csv
+│ │ ├── prd_info.csv
+│ │ └── sales_details.csv
+│ │
+│ └── source_erp/
+│ ├── CUST_AZ12.csv
+│ ├── LOC_A101.csv
+│ └── PX_CAT_G1V2.csv
 │
-├── gold/
-│ ├── gold_dim_customers.ipynb
-│ ├── gold_dim_products.ipynb
-│ ├── gold_fact_sales.ipynb
-│ ├── gold_orchestration.ipynb
+├── script/ # Databricks notebooks (Bronze/Silver/Gold)
+│ ├── bronze/
+│ │ ├── bronze_crm_ingestion.ipynb
+│ │ ├── bronze_erp_ingestion.ipynb
+│ │
+│ ├── silver/
+│ │ ├── silver_crm_customers.ipynb
+│ │ ├── silver_erp_products.ipynb
+│ │ ├── silver_orchestration.ipynb
+│ │
+│ ├── gold/
+│ │ ├── gold_dim_customers.ipynb
+│ │ ├── gold_dim_products.ipynb
+│ │ ├── gold_fact_sales.ipynb
+│ │ ├── gold_orchestration.ipynb
+│ │
+│ └── init_lakehouse.ipynb
 │
-└── init_lakehouse.ipynb
+├── .gitignore
+├── LICENSE
+└── README.md
+
 ```
 
 ---
