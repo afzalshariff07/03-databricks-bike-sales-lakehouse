@@ -157,7 +157,7 @@ This project follows the **Medallion Architecture** pattern.
 
 ## Acknowledgment
 
-This project draws conceptual inspiration from the Databricks Lakehouse Bootcamp by Baraa Khatib Salkini.
+This project draws conceptual inspiration from the Databricks Lakehouse Bootcamp by **Baraa Khatib Salkini**.
 
 The architecture, notebook structure, and enhancements in this repository were independently implemented and adapted to simulate enterprise-level data engineering practices.
 
